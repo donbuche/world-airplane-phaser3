@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+  background: url('map.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+#plane-container {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#plane {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transform-origin: center;
+  transition: transform 0.1s;
+}
